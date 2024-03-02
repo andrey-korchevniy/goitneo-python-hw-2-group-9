@@ -1,6 +1,4 @@
 from handlers import add_contact, change_contact, contact_phone, all_contacts
-from classes import AddressBook, Record
-
 
 def parse_input(user_input):
     cmd, *args = user_input.split()
